@@ -1,7 +1,12 @@
+import { Player } from "./components/Player"
+import style from "./App.module.css"
+
 function App() {
- 
+
   return (
-    <h1>Hello</h1>
+    <div className={style.container}>
+      <Player />
+    </div>
   )
 }
 

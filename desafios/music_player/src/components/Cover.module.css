@@ -1,0 +1,7 @@
+.cover {
+  display: flex;
+}
+
+.cover img {
+  flex: 1;
+}

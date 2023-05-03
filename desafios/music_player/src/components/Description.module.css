@@ -1,0 +1,17 @@
+.description {
+    display: flex;
+    flex-direction:column;
+
+    align-self: self-start;
+}
+
+.description strong {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.description span {
+    font-size: 1.25rem;
+    opacity: 67%;
+}
