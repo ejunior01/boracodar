@@ -1,9 +1,13 @@
 import cover from "../assets/cover.png"
 import style from "./Cover.module.css"
 
-export function Cover() {
+type CoverProps = {
+    size: string
+}
+
+export function Cover({ size }: CoverProps) {
     return (
-        <div className={style.cover}>
+        <div className={`${style.cover} ${style[size]}`}>
             <img src={cover} />
         </div>
     )

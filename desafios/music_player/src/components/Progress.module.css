@@ -1,0 +1,13 @@
+.progress {
+  width: 100%;
+}
+.progress .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.progressBar img {
+  width: 100%;
+}

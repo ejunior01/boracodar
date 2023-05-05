@@ -1,7 +1,18 @@
-.cover {
+.cover.big {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.cover img {
-  flex: 1;
+.cover.small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+}
+
+img {
+  width: 100%;
 }

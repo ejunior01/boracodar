@@ -1,15 +1,15 @@
-import { Cover } from "./Cover"
-import { Description } from "./Description"
-import { PlayerControls } from "./PlayerControls"
-
+import React from "react"
 import style from "./Player.module.css"
 
-export function Player() {
+type PlayerProps = {
+    format: string
+    children: React.ReactNode
+}
+
+export function Player({format, children }: PlayerProps) {
     return (
-        <div className={style.player}>
-            <Cover />
-            <Description />
-            <PlayerControls />
+        <div className={`${style.default} ${style[format]}`}>
+            {children}
         </div>
     )
 }
