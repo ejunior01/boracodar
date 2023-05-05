@@ -1,12 +1,11 @@
-import { Player } from "./components/Player"
-import style from "./App.module.css"
-import { Cover } from "./components/Cover"
-import { Description } from "./components/Description"
-import { Controls } from "./components/Controls"
-import { Progress } from "./components/Progress"
+import { Player } from './components/Player'
+import style from './App.module.css'
+import { Cover } from './components/Cover'
+import { Description } from './components/Description'
+import { Controls } from './components/Controls'
+import { Progress } from './components/Progress'
 
 function App() {
-
   return (
     <div className={style.container}>
       <Player format="verticalFull">

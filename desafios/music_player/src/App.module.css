@@ -1,17 +1,11 @@
-/* .container {
-  width: 656px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  flex-wrap: wrap;
-} */
-
 .container {
   width: 656px;
+  height: 498px;
+
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 357px;
+  grid-template-rows: 1fr 199px;
   grid-template-areas: "vFull hFull" "vFull hSimple";
-  gap: 1.75rem;
+  
+  gap: 2rem;
 }
