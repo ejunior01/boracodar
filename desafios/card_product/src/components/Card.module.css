@@ -1,0 +1,75 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+
+}
+.image  {
+  position: relative;
+}
+
+.image img {
+  height: 14rem;
+}
+
+.image button {
+  position:absolute;
+  right:0;
+  top:0;
+  width: 2rem;
+  height: 2rem;
+  border:0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.image button img {
+  width: 100%;
+  height: 100%;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  gap: 1.75rem;
+
+}
+
+.info {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+}
+
+.info .code {
+  font-size: 0.625rem;
+  opacity: 67%;
+}
+
+.info .title {
+  font-size: 2rem;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 600;
+}
+
+.info .price {
+  opacity: 67%;
+}
+
+.productInfo button {
+  border: 1px solid #271A45;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  font-size: 0.75rem;
+  background-color: transparent;
+  cursor: pointer;
+}
