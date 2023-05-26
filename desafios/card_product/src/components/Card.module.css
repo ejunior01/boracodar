@@ -35,6 +35,11 @@
   height: 100%;
 }
 
+.image button img.close {
+  width: 60%;
+  height: 60%;
+}
+
 .productInfo {
   display: flex;
   flex-direction:column;
@@ -72,4 +77,10 @@
   font-size: 0.75rem;
   background-color: transparent;
   cursor: pointer;
+  transition: all 500ms;
+}
+
+.productInfo button:hover {
+  background: #271a45;
+  color: #fff;
 }
